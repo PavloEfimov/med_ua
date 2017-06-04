@@ -1,0 +1,67 @@
+body{
+	background-color: #d1d1d1;
+	font-family: Arial, Tahoma, sans-serif;
+}
+.main{
+	width: 600px;
+	margin: auto;
+	background-color: white;
+}
+.submain{
+	width: 500px;
+	margin: auto;
+}
+.header{
+	width: 600px;
+}
+
+.i1, .i2, .i3, .i4, .i5{
+	display: block;
+}
+.middle_one, .middle_two, .middle_three, .middle_four, .middle_five{
+	float: left;
+}
+
+.middle_one, .middle_two{
+	width: 250px;
+	margin-top: 10px;
+}
+
+.i1, .i2, .button_big{
+	width: 200px;
+}
+
+.middle_three, .middle_four, .middle_five{
+	width: 160px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.seven{
+	clear: both;
+}
+
+.one_i, .two_i{
+	width: 200px;
+}
+
+.three_i, .four_i, .five_i, .i3, .i4, .i5, .button_small{
+	width: 130px;
+}
+
+.button_big, .button_small, .button_like{
+	background-color: #cf5b4e;
+	color: white;
+	border-radius: 7px;
+	height: 35px;
+}
+.one{
+	text-align: center;
+}
+.last_button{
+	margin-top: 36px;
+}
+.button_like{
+	margin: 0px auto;
+	width: 460px;
+}
