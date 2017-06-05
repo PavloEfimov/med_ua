@@ -1,6 +1,13 @@
 body{
 	background-color: #d1d1d1;
 	font-family: Arial, Tahoma, sans-serif;
+	font-size: 15px;
+}
+a{
+	display: block;
+}
+.doc{
+	display: inline;
 }
 .main{
 	width: 600px;
@@ -10,6 +17,7 @@ body{
 .submain{
 	width: 500px;
 	margin: auto;
+	padding-bottom: 40px;
 }
 .header{
 	width: 600px;
@@ -18,35 +26,53 @@ body{
 .i1, .i2, .i3, .i4, .i5{
 	display: block;
 }
+.submain_one, .submain_two{
+	position: relative;
+	width: 500px;
+	height: 300px;
+}
 .middle_one, .middle_two, .middle_three, .middle_four, .middle_five{
-	float: left;
+	position: absolute;
+}
+.last{
+	clear: both;
+}
+.middle_one, .middle_two{
+	width: 230px;
+	margin-top: 10px;
+}
+.middle_two{
+	right: 0;
 }
 
-.middle_one, .middle_two{
-	width: 250px;
-	margin-top: 10px;
+.middle_four{
+	right: 180px;
+}
+
+.middle_five{
+	right: 0;
 }
 
 .i1, .i2, .button_big{
-	width: 200px;
+	width: 230px;
 }
 
 .middle_three, .middle_four, .middle_five{
-	width: 160px;
-	margin-top: 40px;
-	margin-bottom: 20px;
+	width: 140px;
+	margin: 40px 0 20px 0;
 }
 
 .seven{
+	margin-top: 120px;
 	clear: both;
 }
 
 .one_i, .two_i{
-	width: 200px;
+	width: 230px;
 }
 
 .three_i, .four_i, .five_i, .i3, .i4, .i5, .button_small{
-	width: 130px;
+	width: 140px;
 }
 
 .button_big, .button_small, .button_like{
@@ -54,14 +80,16 @@ body{
 	color: white;
 	border-radius: 7px;
 	height: 35px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+}
+.left_down_btn{
+	margin-top: 15px;
 }
 .one{
 	text-align: center;
 }
 .last_button{
-	margin-top: 36px;
-}
-.button_like{
-	margin: 0px auto;
-	width: 460px;
+	margin-top: 15px;
 }
